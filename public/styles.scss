@@ -1,0 +1,52 @@
+html {
+  font-family: "Didact Gothic";
+  background-color: rgb(231, 230, 228);
+}
+
+.d-hidden {
+  display: none;
+}
+
+.list {
+  padding: 0.5rem;
+  text-align: center;
+
+  margin: auto;
+  width: 300px;
+
+  padding-bottom: 2rem;
+
+  &__item {
+    width: auto;
+    &:hover {
+      transform: scale(1.2, 1.2);
+      opacity: 50%;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+.btn {
+  border-radius: 0px;
+  border: none;
+  background-color: rgb(33, 180, 190);
+  padding: 1em;
+  color: rgb(97, 6, 85);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+#clear {
+  width: 80%;
+  text-align: right;
+  padding: 10px;
+}

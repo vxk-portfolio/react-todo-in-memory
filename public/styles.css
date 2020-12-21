@@ -1,0 +1,53 @@
+html {
+  font-family: "Didact Gothic";
+  background-color: #e7e6e4;
+}
+
+.d-hidden {
+  display: none;
+}
+
+.list {
+  padding: 0.5rem;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  padding-bottom: 2rem;
+}
+
+.list__item {
+  width: auto;
+}
+
+.list__item:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  opacity: 50%;
+  background-color: white;
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+.btn {
+  border-radius: 0px;
+  border: none;
+  background-color: #21b4be;
+  padding: 1em;
+  color: #610655;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+#clear {
+  width: 80%;
+  text-align: right;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
